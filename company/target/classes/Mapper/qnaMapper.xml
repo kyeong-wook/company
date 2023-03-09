@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Qna">
+	<resultMap type="Qna" id="Qna">
+		<id property="qnabNo" column="qnabNo"/>
+		<id property="qnabTitle" column="qnabTitle"/>
+		<id property="qnabContent" column="qnabContent"/>
+		<id property="qnabWriter" column="qnabWriter"/>
+		<id property="qnabDate" column="qnabDate"/>
+		<id property="qnabcYn" column="qnabcYn"/>
+		<id property="mNo" column="mNo"/>
+		<id property="mnReadCnt" column="mnReadCnt"/>
+	</resultMap>
+</mapper>

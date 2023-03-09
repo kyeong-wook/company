@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Notice">
+	<resultMap type="Notice" id="Notice">
+		<id property="nbNo" column="nbNo"/>
+		<result property="nbTitle" column="nbTitle"/>
+		<result property="nbContent" column="nbContent"/>
+		<result property="nbWriter" column="nbWriter"/>
+		<result property="nbDate" column="nbDate"/>
+		<result property="nbcYn" column="nbcYn"/>
+		<result property="mNo" column="mNo"/>
+		<result property="nReadCnt" column="nReadCnt"/>
+	</resultMap>
+</mapper>

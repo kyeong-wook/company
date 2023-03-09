@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Main">
+	<resultMap type="Main" id="Main">
+		<id property="mNo" column="mNo"/>
+		<result property="mId" column="mId"/>
+		<result property="mPass" column="mPass"/>
+		<result property="mName" column="mName"/>
+		<result property="mbirth" column="mbirth"/>
+		<result property="mGen" column="mGen"/>
+		<result property="mEmail" column="mEmail"/>
+		<result property="mTel" column="mTel"/>
+		<result property="mAddr1" column="mAddr1"/>
+		<result property="mAddr2" column="mAddr2"/>
+	</resultMap>
+</mapper>
