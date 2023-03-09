@@ -1,12 +1,5 @@
 package com.project.company.main.dao;
 
-import org.mybatis.spring.SqlSessionTemplate;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
+public interface MainDao {
 
-@Repository
-public class MainDao {
-
-	@Autowired
-	SqlSessionTemplate sql;
 }
